@@ -1,0 +1,28 @@
+# LearnVest
+
+> LearnVest is a discontinued US personal-finance company. Founded by Alexa von Tobel and backed by Accel, it sold subscription financial planning pairing consumers with CFP professionals alongside budgeting and goal-tracking tools. Northwestern Mutual acquired LearnVest in 2015 and shut the planning service down on 2018-06-05. learnvest.com survives only as an archived consumer financial-education article site operated under the Northwestern Mutual brand. LearnVest never published a public API, developer portal, or SDK.
+
+## Status
+
+- Product status: discontinued (planning service ended 2018-06-05)
+- Owner: The Northwestern Mutual Life Insurance Company
+- API surface: none — no developer portal, documentation, OpenAPI, sandbox, changelog, status page, or /.well-known/ discovery
+- Public packages: none on npm or PyPI
+- GitHub: https://github.com/LearnVest (organization exists, zero public repositories)
+
+## Site
+
+- [LearnVest](https://www.learnvest.com/): archived personal-finance article site (budgeting, saving, paying off debt, career growth)
+- [Terms of Use](https://www.learnvest.com/termsofuse/): terms governing the LearnVest site
+- [Privacy Notices](https://www.northwesternmutual.com/privacy-notices/): Northwestern Mutual privacy notices covering LearnVest
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/apis.yml): APIs.json profile for LearnVest
+- [lifecycle/learnvest-lifecycle.yml](https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/lifecycle/learnvest-lifecycle.yml): acquisition and shutdown timeline, plus the evidence that no API surface exists
+- [security/learnvest-domain-security.yml](https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/security/learnvest-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC probe of learnvest.com
+- [well-known/learnvest-well-known.yml](https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/well-known/learnvest-well-known.yml): record of the /.well-known/ probe (all 404)
+
+## Notes for agents
+
+Do not attempt to integrate with a LearnVest API — none exists, and none is documented anywhere on the provider's surface. Treat learnvest.com as a static content archive. For the operating business, see Northwestern Mutual (https://www.northwesternmutual.com/).

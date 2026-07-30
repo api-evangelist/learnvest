@@ -1,0 +1,46 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.learnvest.com/ (live probe) + press coverage of the 2018 shutdown
+scope: company-and-product
+status: discontinued
+summary: >-
+  LearnVest's product is discontinued. The subscription financial-planning
+  service was shut down in 2018 after Northwestern Mutual's 2015 acquisition,
+  and learnvest.com now serves only as an archived personal-finance editorial
+  site operated under the Northwestern Mutual brand. There is no API, no
+  developer program, no sign-up, and no account surface.
+timeline:
+- date: '2015'
+  event: Northwestern Mutual acquires LearnVest (reported ~$250M).
+  source: https://www.kitces.com/blog/learnvest-shutting-down-northwestern-mutual-success-financial-planning-software-pfm/
+- date: '2018-05-03'
+  event: Northwestern Mutual announces termination of the LearnVest subscription financial-planning service.
+  source: https://www.investmentnews.com/fintech/northwestern-mutual-shutting-down-learnvest/74195
+- date: '2018-06-05'
+  event: LearnVest client accounts disconnected and automatically closed; planning service ends.
+  source: https://www.investmentnews.com/fintech/northwestern-mutual-shutting-down-learnvest/74195
+- date: '2018'
+  event: Brand relaunched as a consumer financial-education content site.
+  source: https://www.financial-planning.com/news/alexa-von-tobel-startup-learnvest-to-stop-financial-planning
+- date: '2026-07-19'
+  event: >-
+    Live probe — learnvest.com returns 200 and serves a static article archive
+    with a "Northwestern Mutual (c) 2021" footer. Only "/" and "/article/*" and
+    "/termsofuse/" resolve; /about, /careers, /blog, /developers, /api, /docs,
+    /robots.txt and /sitemap.xml all 404.
+  source: https://www.learnvest.com/
+api_surface:
+  present: false
+  evidence: >-
+    No developer portal, documentation, API reference, OpenAPI, sandbox,
+    status page, changelog, or /.well-known/ discovery surface exists on any
+    learnvest.com host. No first-party packages on npm or PyPI. The
+    github.com/LearnVest organization exists (created 2014-07-10) but publishes
+    zero public repositories.
+versioning: null
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla: null
+status_page: null
+deprecated_operations: []
