@@ -1,20 +1,50 @@
 aid: learnvest
-name: Learnvest
-description: 'Learnvest is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+name: LearnVest
+description: 'LearnVest was a New York personal-finance company founded in 2009 by Alexa
+  von Tobel and backed by Accel, selling subscription financial planning that paired
+  consumers with CFP professionals alongside budgeting, spending-tracking and goal
+  tools. Northwestern Mutual acquired LearnVest in 2015 for a reported $250 million
+  and terminated the subscription planning service on June 5, 2018, closing all client
+  accounts. The brand was relaunched as a consumer financial-education content site,
+  and learnvest.com today is an archived article library on budgeting, saving, paying
+  off debt and career growth, operated under the Northwestern Mutual brand. LearnVest
+  never published a public API, developer portal, SDK or sandbox, and no developer
+  surface exists today.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.learnvest.com/static/images/meta/Learnvest_Icon_Large_PNG.png
 url: https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
+x-status: discontinued
+x-acquired-by: northwestern-mutual
+x-acquired-year: '2015'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Financial Services
+- Personal Finance
+- Financial Planning
+- Budgeting
+- Fintech
+- Discontinued
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +53,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.learnvest.com
+  url: https://www.learnvest.com
+- type: TermsOfService
+  url: https://www.learnvest.com/termsofuse/
+- type: PrivacyPolicy
+  url: https://www.northwesternmutual.com/privacy-notices/
+- type: Lifecycle
+  url: lifecycle/learnvest-lifecycle.yml
+- type: DomainSecurity
+  url: security/learnvest-domain-security.yml
+- type: LLMsTxt
+  url: llms/learnvest-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
