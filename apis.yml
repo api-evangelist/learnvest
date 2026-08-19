@@ -32,7 +32,7 @@ x-tier-reason: no-api-surface
 x-status: discontinued
 x-acquired-by: northwestern-mutual
 x-acquired-year: '2015'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
