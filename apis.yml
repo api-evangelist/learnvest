@@ -34,6 +34,9 @@ accessModel:
   method: derived
 image: https://www.learnvest.com/static/images/meta/Learnvest_Icon_Large_PNG.png
 url: https://raw.githubusercontent.com/api-evangelist/learnvest/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "LearnVest never published a public API, developer portal, SDK or sandbox, and no developer surface exists today."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
