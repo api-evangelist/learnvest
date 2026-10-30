@@ -64,19 +64,48 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LearnVest was a New York personal-finance company founded in 2009 by Alexa von Tobel and backed by Accel, selling subscription financial planning that paired consumers with CFP professionals alongside budgeting, spending-tracking and goal tools. Northwestern Mutual acquired LearnVest in 2015 for a reported $250 million and terminated the subscription planning service on June 5, 2018, closing all client accounts. The brand was relaunched as a consumer financial-education content site, and learnvest.com today is an archived article library operated under the Northwestern Mutual brand.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: discontinued.** LearnVest never published a public API, developer portal, SDK or sandbox, and no developer surface exists today. The `github.com/LearnVest` organization exists but publishes zero public repositories; there are no first-party packages on npm or PyPI; and every `/.well-known/` path returns 404.
+**Status:** discontinued
 
-- Website — https://www.learnvest.com
-- Terms of Use — https://www.learnvest.com/termsofuse/
-- Privacy Notices (Northwestern Mutual) — https://www.northwesternmutual.com/privacy-notices/
+LearnVest was a New York personal-finance company founded in 2009 by Alexa von Tobel and backed by Accel, selling subscription financial planning that paired consumers with CFP professionals alongside budgeting, spending-tracking and goal tools. Northwestern Mutual acquired LearnVest in 2015 for a reported $250 million and terminated the subscription planning service on June 5, 2018, closing all client accounts. The brand was relaunched as a consumer financial-education content site, and learnvest.com today is an archived article library on budgeting, saving, paying off debt and career growth, operated under the Northwestern Mutual brand. LearnVest never published a public API, developer portal, SDK or sandbox, and no developer surface exists today.
 
-## Artifacts
+**Areas:** Company · Consumer · Financial Services · Personal Finance · Financial Planning · Budgeting · Fintech · Discontinued · Acquired
 
-- `lifecycle/learnvest-lifecycle.yml` — acquisition and shutdown timeline plus evidence that no API surface exists
-- `security/learnvest-domain-security.yml` — TLS/HSTS/DNSSEC/CAA/SPF/DMARC probe of learnvest.com
-- `well-known/learnvest-well-known.yml` — record of the `/.well-known/` probe (all 404)
-- `llms/learnvest-llms.txt` — agent-facing summary
+## LearnVest on APIs.io (historical record)
 
-Backed by: accel
+Everything profiled for LearnVest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/learnvest/](https://apis.io/providers/learnvest/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Learnvest Domain Security](https://apis.io/security/learnvest/learnvest-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.learnvest.com)
+- [Terms of service](https://www.learnvest.com/termsofuse/)
+- [Privacy policy](https://www.northwesternmutual.com/privacy-notices/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LearnVest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/learnvest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
